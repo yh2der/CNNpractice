@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[3]:
-
-
 from torch import nn
 import torch.nn.functional as F
 
@@ -78,10 +72,3 @@ class CNN(nn.Module):
         x = self.classifier(x)
         
         return x
-
-
-# In[ ]:
-
-
-
-
